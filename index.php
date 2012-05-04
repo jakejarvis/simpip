@@ -1,1 +1,1 @@
-<?php header("Content-type: text/plain"); echo ($_SERVER['$_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['$_SERVER['HTTP_X_FORWARDED_FOR'] : $_SERVER['REMOTE_ADDR']; ?>
+<?php header("Content-type: text/plain"); echo ($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDED_FOR'] : $_SERVER['REMOTE_ADDR']; ?>
