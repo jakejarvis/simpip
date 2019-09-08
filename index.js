@@ -16,7 +16,7 @@ async function handle(request) {
       "Cache-Control": "max-age=0, no-cache, no-store, must-revalidate",
       "Pragma": "no-cache",
       "Expires": "Wed, 11 Jan 1984 05:00:00 GMT",
-      "X-Did-You-Know": "You can visit ipv4.simpip.com or ipv6.simpip.com to get either address!"
+      "X-Did-You-Know": "You can use \"curl -4 simpip.com\" or \"curl -6 simpip.com\" to get either address!"
     }
   });
 }
