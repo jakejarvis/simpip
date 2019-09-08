@@ -1,4 +1,6 @@
-# 🌎 [simpip.com](https://simpip.com/)
+# [simpip.com](https://simpip.com/) 🌎 
+
+![](https://github.com/jakejarvis/simpip/workflows/Deploy%20Cloudflare%20Worker/badge.svg)
 
 **⚡ Now powered purely by [Cloudflare Workers](https://www.cloudflare.com/products/cloudflare-workers/) — [try this code on the playground!](https://cloudflareworkers.com/#12bf2207fc352f52ebb27a041753c03d:https://tutorial.cloudflareworkers.com/)** The ancient PHP version is [archived here](https://github.com/jakejarvis/simpip/tree/php).
 
