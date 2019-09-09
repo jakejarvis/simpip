@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: cloudflare/serverless-action@master
+    - uses: jakejarvis/cloudflare-serverless-action@master
       env:
         CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         CLOUDFLARE_AUTH_EMAIL: ${{ secrets.CLOUDFLARE_AUTH_EMAIL }}
         CLOUDFLARE_AUTH_KEY: ${{ secrets.CLOUDFLARE_AUTH_KEY }}
         CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
-        CLOUDFLARE_SCRIPT_NAME: 'simpip'
+        CLOUDFLARE_WORKER_NAME: 'simpip'
+        CLOUDFLARE_SCRIPT_NAME: 'index'
