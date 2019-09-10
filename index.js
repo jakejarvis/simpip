@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
 async function handle(request) {
   const url = new URL(request.url);
   let customHeaders = {
-    "Content-Type": "text/plain",
+    "Content-Type": "text/plain; charset=utf-8",
     "Content-Security-Policy": "default-src 'none';",
     "Feature-Policy": "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; sync-xhr 'none'; payment 'none'; usb 'none'; vr 'none'",
     "X-Content-Type-Options": "nosniff",
