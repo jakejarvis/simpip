@@ -11,7 +11,8 @@ async function handle(request) {
     "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
     "Content-Security-Policy": "default-src 'none';",
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, OPTIONS",
+    "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+    "X-Content-Type-Options": "nosniff",
     "X-Did-You-Know": "You can use \"curl -4 simpip.com\" or \"curl -6 simpip.com\" to get either address!",
     "X-Source-Code": "https://github.com/jakejarvis/simpip"
   }
