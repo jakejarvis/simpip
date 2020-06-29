@@ -3,7 +3,7 @@ name: Deploy Cloudflare Worker
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
