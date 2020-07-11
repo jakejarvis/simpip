@@ -1,8 +1,8 @@
-# [🌎 simpip](https://simpip.com/)
+# 🌎 [simpip](https://simpip.com/)
 
-**⚡ Now powered purely by [Cloudflare Workers](https://www.cloudflare.com/products/cloudflare-workers/), making it _blazing_ fast from anywhere in the world — and even simpler!** [Try this code on the playground.](https://cloudflareworkers.com/#6b0835ee482cc019b521cd68dd35c1c2:https://tutorial.cloudflareworkers.com)
+**⚡ Now powered purely by [Cloudflare Workers](https://www.cloudflare.com/products/cloudflare-workers/), making it _blazing_ fast from anywhere in the world — and even simpler!** [Try this code on the playground.](https://cloudflareworkers.com/#64957bfecaa806b38ea1ad160b5f7b94:https://tutorial.cloudflareworkers.com)
 
-[![CI](https://github.com/jakejarvis/simpip/workflows/Deploy%20Cloudflare%20Worker/badge.svg)](https://github.com/jakejarvis/simpip/actions?query=workflow%3A%22Deploy+Cloudflare+Worker%22) [![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fsimpip.com)](https://securityheaders.com/?q=https%3A%2F%2Fsimpip.com%2F)
+[![CI](https://github.com/jakejarvis/simpip/workflows/Deploy%20Cloudflare%20Worker/badge.svg)](https://github.com/jakejarvis/simpip/actions?query=workflow%3A%22Deploy+Cloudflare+Worker%22)
 
 A very, *very* "simple" and lightning-fast web server that returns the requester's IP address in plaintext...and **literally nothing else**. Perfect for CLI usage via `curl`, `wget`, `httpie`, etc. or for automated tasks like dynamic DNS updates.
 
@@ -13,7 +13,6 @@ curl simpip.com       # returns IPv6 *OR* IPv4
 curl -4 simpip.com    # returns IPv4
 curl -6 simpip.com    # returns IPv6, or fails to connect if network is incompatible
 ```
-
 
 ## Usage
 
@@ -38,7 +37,6 @@ jake@macbook:~$ ip
 1.1.1.1
 2606:4700:4700::1111
 ```
-
 
 ## License
 
