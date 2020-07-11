@@ -6,14 +6,11 @@ async function handle(request) {
   const url = new URL(request.url);
   let customHeaders = {
     "Content-Type": "text/plain; charset=utf-8",
-    "Cache-Control": "max-age=0, no-cache, no-store, must-revalidate",
-    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate",
     "Content-Security-Policy": "default-src 'none';",
-    "Referrer-Policy": "no-referrer",
-    "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "DENY",
-    "X-Did-You-Know": "You can use \"curl -4 simpip.com\" or \"curl -6 simpip.com\" to get either address!",
-    "X-Source-Code": "https://github.com/jakejarvis/simpip"
+    "X-Did-You-Know": "You can use \"curl -4\" or \"curl -6\" to get either IP address!",
+    "X-View-Source": "https://git.io/simpip"
   }
   if (url.pathname === '/') {
     return new Response(request.headers.get("cf-connecting-ip") + "\n", {
