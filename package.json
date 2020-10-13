@@ -1,0 +1,28 @@
+{
+  "name": "simpip",
+  "version": "1.0.0",
+  "description": "A very simple web server that returns your IP address in plaintext...and literally nothing else.",
+  "license": "MIT",
+  "homepage": "https://simpip.com/",
+  "author": {
+    "name": "Jake Jarvis",
+    "email": "jake@jarv.is",
+    "url": "https://jarv.is/"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "cloudworker index.js",
+    "publish": "wrangler publish --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakejarvis/simpip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jakejarvis/simpip/issues"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.11.0",
+    "@dollarshaveclub/cloudworker": "^0.1.2"
+  }
+}
