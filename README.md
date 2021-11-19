@@ -1,6 +1,6 @@
 # 🌎 [simpip](https://simpip.com/)
 
-**⚡ Now powered purely by [Cloudflare Workers](https://www.cloudflare.com/products/cloudflare-workers/), making it _blazing_ fast from anywhere in the world — and even simpler!** [Try this code on the playground.](https://cloudflareworkers.com/#64957bfecaa806b38ea1ad160b5f7b94:https://tutorial.cloudflareworkers.com)
+**⚡ Now powered purely by [Cloudflare Workers](https://www.cloudflare.com/products/cloudflare-workers/), making it _blazing_ fast from anywhere in the world — and even simpler!** [Try this code on the playground.](https://cloudflareworkers.com/#a9082df8a609f02df62c9f0c83024302:https://simpip.com/)
 
 [![CI](https://github.com/jakejarvis/simpip/workflows/Deploy%20Cloudflare%20Worker/badge.svg)](https://github.com/jakejarvis/simpip/actions?query=workflow%3A%22Deploy+Cloudflare+Worker%22)
 
@@ -40,4 +40,4 @@ jake@macbook:~$ ip
 
 ## License
 
-This project is distributed under the [MIT license](LICENSE.md).
+MIT
