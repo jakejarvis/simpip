@@ -1,8 +1,5 @@
 name = "simpip"
 type = "javascript"
 account_id = "bd1a636a30a817137ce1e91c9e407373"
-workers_dev = false
-
-[env.production]
 zone_id = "01417e1ce40cd6425a9ff87225bbd63a"
 route = "simpip.com/*"
