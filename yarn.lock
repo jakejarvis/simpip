@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cloudflare/wrangler@^1.19.8":
-  version "1.19.8"
-  resolved "https://registry.yarnpkg.com/@cloudflare/wrangler/-/wrangler-1.19.8.tgz#fd5b6cbb2ec353c0fc479575667561884a267ca6"
-  integrity sha512-bckvdgBT3ZkvJQtGhdWEwa7GKi3zWYlxBPQoaOa+Utqw4bzg3BkbzUouI8+7WmcvkOoLxQ2emgTTNfudHBcCqA==
+"@cloudflare/wrangler@^1.19.12":
+  version "1.19.12"
+  resolved "https://registry.yarnpkg.com/@cloudflare/wrangler/-/wrangler-1.19.12.tgz#17ff0ad7e816d3ea79069a31654d98328d4df75c"
+  integrity sha512-ALuQDzJetYGqzNuIa3KY8S8X9rvZjIh5uEY3nK31jV/EmBamiiSJn4XIdPuSn65FaEmmZem78OJIWFyu80OIuA==
   dependencies:
     axios "^0.21.1"
     rimraf "^3.0.2"
