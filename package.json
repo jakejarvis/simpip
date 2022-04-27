@@ -9,7 +9,7 @@
     "deploy": "wrangler publish"
   },
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.19.8",
+    "@cloudflare/wrangler": "^1.19.12",
     "@jakejarvis/eslint-config": "github:jakejarvis/eslint-config#main",
     "eslint": "~8.14.0",
     "miniflare": "^2.4.0"
