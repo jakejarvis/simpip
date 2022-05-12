@@ -46,9 +46,9 @@
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
 "@jakejarvis/eslint-config@*":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@jakejarvis/eslint-config/-/eslint-config-3.0.0.tgz#383491bde85ed3ff539d4aca747206dd07a6f033"
-  integrity sha512-HrPBEsV9/P63xOsVE3dZlIlmGYrhRcm2k8W3TriJJhpQ7wJMKdQoq/TpRz4jvUsNNca4pGYEkpZhxH8uAqlRiQ==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@jakejarvis/eslint-config/-/eslint-config-3.1.0.tgz#155fbb4663a1292657e246c25026aff8d461488c"
+  integrity sha512-H9kFtFjqwj0fjsztLUDbsz6mR6SMQ1qRtOPL/sAGrToMJxD5Kq1CEPwxZ6TiGT9h1gQpzqVVk496rtYi/QcqJw==
 
 "@miniflare/cache@2.4.0":
   version "2.4.0"
