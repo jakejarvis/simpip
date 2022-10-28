@@ -12,6 +12,6 @@
     "@cloudflare/wrangler": "^1.19.12",
     "@jakejarvis/eslint-config": "*",
     "eslint": "~8.14.0",
-    "miniflare": "^2.4.0"
+    "miniflare": "^2.11.0"
   }
 }
