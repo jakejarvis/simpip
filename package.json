@@ -11,7 +11,7 @@
   "devDependencies": {
     "@cloudflare/wrangler": "^1.19.12",
     "@jakejarvis/eslint-config": "*",
-    "eslint": "~8.14.0",
+    "eslint": "~8.30.0",
     "miniflare": "^2.4.0"
   }
 }
