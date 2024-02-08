@@ -1,11 +1,11 @@
 const handle = async (request) => {
   const opts = {
     headers: {
-      "Content-Type": "text/plain; charset=utf-8",
+      "Content-Type": "text/plain",
       "Cache-Control": "no-cache, no-store, must-revalidate",
-      "Content-Security-Policy": "default-src 'none';",
+      "Content-Security-Policy": "default-src 'none'",
       "X-Did-You-Know": "You can use \"curl -4\" or \"curl -6\" to get either IP address!",
-      "X-View-Source": "https://jrvs.io/simpip",
+      "X-View-Source": "https://github.com/jakejarvis/simpip",
     },
   };
 

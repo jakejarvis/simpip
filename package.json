@@ -4,14 +4,10 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "miniflare index.js --watch --debug",
-    "lint": "eslint .",
+    "start": "wrangler dev",
     "deploy": "wrangler publish"
   },
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.19.12",
-    "@jakejarvis/eslint-config": "*",
-    "eslint": "~8.14.0",
-    "miniflare": "^2.4.0"
+    "wrangler": "^3.27.0"
   }
 }

@@ -1,5 +1,7 @@
 name = "simpip"
-type = "javascript"
-account_id = "bd1a636a30a817137ce1e91c9e407373"
-zone_id = "01417e1ce40cd6425a9ff87225bbd63a"
-route = "simpip.com/*"
+compatibility_date = "2024-02-08"
+main = "index.js"
+routes = [
+	{ pattern = "simpip.com", custom_domain = true },
+	{ pattern = "www.simpip.com", custom_domain = true }
+]
