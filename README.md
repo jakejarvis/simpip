@@ -1,6 +1,6 @@
 # 🌎 [simpip](https://simpip.com/)
 
-**⚡ Now powered purely by [Cloudflare Workers](https://www.cloudflare.com/products/cloudflare-workers/), making it _blazing_ fast from anywhere in the world — and even simpler!** [Try this code on the playground.](https://cloudflareworkers.com/#ad749bc793a44b32186fc5d10fddf163:https://simpip.com/)
+**⚡ Now powered purely by [Cloudflare Workers](https://www.cloudflare.com/products/cloudflare-workers/), making it _blazing_ fast from anywhere in the world — and even simpler!** [Try this code on the playground.][playground]
 
 [![Deploy Cloudflare Worker](https://github.com/jakejarvis/simpip/actions/workflows/deploy.yml/badge.svg)](https://github.com/jakejarvis/simpip/actions/workflows/deploy.yml)
 
@@ -41,3 +41,5 @@ jake@macbook:~$ ip
 ## License
 
 MIT
+
+[playground]: https://workers.cloudflare.com/playground#LYVwNgLglgDghgJwgegGYHsHALQBM4RwDcABAEbogB2+CAngLzbPYDqApmQNJQQBimYACFKNRHSEBjAFYBGAJqyAWgA0AigFYAktIBqXAExgAXCxYduvAVhHVaEmQuXrtew2ACwAKADC6KhDsAdgAIlAAzjDo4bxQ-sYkGFh4BMQkVHDA7AwARFA07AAeAHTS4TmkqFBgQZnZeQUlZTnefgFBENgAKnQw7AlwMDBgUJIEcVTI0nAAbnDhkgiwEADUwOi44Oze3kVRSCS47Khw4BAkAN5eJCTzdFSSiewQkgAWABQI7ACOIOzhEAAlJdrjcSJJ-ACSOgYBBwiQGCCwWDXuw4EcEOEEldkcicm1AsEen0cgkcoFCihhnB8jkADSg3EkfFwN7sbAEhDoMCk5lUdDYMZsunpAUAzDsEWgAHYL5zEb4QL0xm4nIAUUKMCgX3KZIADMqmTccgAFBBwADmwDgvJy-MFrNRhqN+P8hM6AGV2JIQEsIHRsCbuaM6LajiczthwghHgByflUdix51MnIqUJQXDYeSUbBcfkAd1tOZA4LgVBIIHC7BIAB0cj6EGASNgACz16EIOsN33N7AANg7EHQJAtzxI7F4qK7WhNt1wuB14QAhCnVendFB2AXsB7KDH2LbXhAIDAschkBapyAyMUIcApnAANbsaYIGYRZAxYBamBrm4AL4MsiAFEF4KpQKgJDvImBYkAAqgASgAMp8Px-ACxS9oCxTwBArwZFkCIMIiOTIDkwI4riEJUFCsAIiQXy-P8EDFKi6LsJixRjhA7wNqggr+ImkjQFQFrYLAFEkAAPtJjHoSxbFohi4Tcc8fGFNgSQFogRxZkkFFgSqNxfBAvoVrBJCIf8US0ew7z0SszK1lQ9JIkaAIEFWCQGHqerAR5hBmeEXRFBAZIAPJcP+YLFHFMJwgFIGAmBIHgcipnmek25WTZkL2TkrZ6q2JAAHLoOcAh2C5blUcinnBQkRWtklYINVWoWUmS5WVaIuAxXFxQJeErUASloJAV4oFeN4ZjMBYPD8IIthiPQUhyIoqiaDo+hGK0bodBmkTRLE8SJIIKSEKQhH1FkhCKjalTVLUWS5GQYDoGQLS+AdRK9P0txDCMYzQP4UzhP4OxeBcOTWvkAD66ybDUpINEcTTlABs1zQtVjLX14jrU4W2uLtYDMN4QA

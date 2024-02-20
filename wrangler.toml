@@ -1,7 +1,6 @@
 name = "simpip"
 compatibility_date = "2024-02-08"
-main = "index.js"
+main = "./src/index.ts"
 routes = [
-	{ pattern = "simpip.com", custom_domain = true },
-	{ pattern = "www.simpip.com", custom_domain = true }
+	{ pattern = "simpip.com", custom_domain = true }
 ]
